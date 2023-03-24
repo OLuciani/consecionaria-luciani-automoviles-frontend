@@ -1,0 +1,41 @@
+.title-products {
+    padding-top: 1%;
+}
+
+article {
+    width: 320px;
+    
+}
+
+.article {
+    color: black;
+    border: solid 1.5px black;
+    margin-bottom: 20px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.article:hover {
+    box-shadow: 2px 2px 5px;
+}
+
+.article img {
+    margin-top: 10px;
+}
+
+.list-cars {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.list-cars a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+

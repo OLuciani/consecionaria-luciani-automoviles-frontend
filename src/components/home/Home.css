@@ -1,0 +1,44 @@
+.title-home {
+    margin-top: 1vh;
+    margin-bottom: -1vh;
+}
+
+/* Ancho y posicionamiento del componente Carousel */
+.carousel {
+    width: 90%;
+    margin-bottom: 20px;
+    border: solid 1px black;
+}
+
+p {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+
+}
+
+/* Con esto logro el posicionamiento del footer en la parte baja */
+.div-body-home {
+    min-height: 82vh;
+}
+
+
+/* **************Media Query**************** */
+
+@media (min-width: 700px) {
+    .carousel {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .carousel {
+        width: 65%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel {
+        width: 53%;
+    }
+}
+
