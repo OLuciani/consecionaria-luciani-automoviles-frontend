@@ -16,17 +16,29 @@ const Contact = () => {
 
           <p><b>Dirección:</b> Lagunilla 327. Ciudad de Córdoba. Rep. Argentina</p>
           <br/>
-                   
-          <p><i className="bi bi-telephone-fill" /> <b>Teléfono:</b> 54 9 351 123456</p>
+
+          <div className='box-p-icon'>
+            <p><b>Teléfono:</b> 54 9 351 123456</p>
+            <i className="bi bi-telephone-fill" />
+          </div>   
           <br/>
         
-          <p><i className="bi bi-envelope-at-fill" /> <b>Email:</b> lucianiautomoviles@gmail.com</p>
+          <div className='box-p-icon'>   
+            <p><b>Email:</b> lucianiautomoviles@gmail.com</p>
+            <i className="bi bi-envelope-at-fill" />
+          </div> 
           <br/>
 
-          <p><i className="bi bi-facebook" /> <b>Facebook</b></p>
+          <div className='box-p-icon'>
+            <p><b>Facebook</b></p>
+            <i className="bi bi-facebook" /> 
+          </div>
           <br/>
 
-          <p><i className="bi bi-instagram" /> <b>Instagram</b></p>
+          <div className='box-p-icon'>
+            <p><b>Instagram</b></p>
+            <i className="bi bi-instagram" />
+          </div>
 
       </main>
 

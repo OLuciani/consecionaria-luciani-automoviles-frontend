@@ -45,8 +45,8 @@ const Home = () => {
             </div>
 
             <p>
-              En Luciani Automóviles encontrarás los mejores usados del mercado. Te
-              esperamos en nuestro local todos los días de 9 a 18 hs .
+              En nuestro local encontrarás los mejores usados del mercado. Te
+              esperamos todos los días de 9 a 18 hs .
             </p>
           </div>
         </main>

@@ -9,18 +9,13 @@ const Products = () => {
 
   /* Hago el fetch con la api del backend que está en el servidor */
   useEffect(() => { 
-    fetch('https://consecionaria-luciani-automoviles-backend.onrender.com/api/list')
+    fetch('https://consecionaria-luciani-automoviles-backend.onrender.com/api/list' || '/api/list')
       .then((res) => res.json())
       .then((allCars) => {
-        //console.log(allAutomoviles);
         setProducts(allCars);
       })
       .catch((error) => console.log(error));
   }, []);
-
- /*  useEffect(() => {
-    console.log("Se actualizo el componente");
-  }, [products]); */
 
   return (
     <>

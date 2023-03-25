@@ -14,7 +14,7 @@ const ProductDetail = () => {
 
   /* Hago el fetch con la api del backend que está en el servidor */
   useEffect(() => {
-    fetch(`https://consecionaria-luciani-automoviles-backend.onrender.com/api/details/${car_id}`)
+    fetch(`https://consecionaria-luciani-automoviles-backend.onrender.com/api/details/${car_id}` || `/api/details/${car_id}`)
       .then(res => res.json())
       .then(oneCar => { 
         return setCar(oneCar)

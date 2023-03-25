@@ -12,6 +12,13 @@
     font-size: 18px;
 }
 
+.box-p-icon {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 
 
 
