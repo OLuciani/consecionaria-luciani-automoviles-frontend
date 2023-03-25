@@ -9,25 +9,14 @@ const Products = () => {
 
   /* Hago el fetch con la api del backend que está en el servidor */
   useEffect(() => { 
-     consumeApiBackend()
+    fetch('/api/list')
+      .then((res) => res.json())
+      .then((allCars) => {
+        //console.log(allAutomoviles);
+        setProducts(allCars);
+      })
+      .catch((error) => console.log(error));
   }, []);
-
-  const consumeApiBackend = async () => {
-    const data = await fetch("https://consecionaria-luciani-automoviles-backend.onrender.com/api/list");
-    const dataJson = await data.json();
-    setProducts(dataJson);
-    
-  }
-
-  /* fetch("/api/list")
-    .then((res) => res.json())
-    .then((allCars) => {
-      //console.log(allAutomoviles);
-      setProducts(allCars);
-    })
-    .catch((error) => console.log(error)); */
-
- 
 
  /*  useEffect(() => {
     console.log("Se actualizo el componente");
