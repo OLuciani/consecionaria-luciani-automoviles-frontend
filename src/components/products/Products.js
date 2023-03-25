@@ -13,7 +13,7 @@ const Products = () => {
   }, []);
 
   const consumeApiBackend = async () => {
-    const data = await fetch("/api/list");
+    const data = await fetch("https://consecionaria-luciani-automoviles-backend.onrender.com/api/list");
     const dataJson = await data.json();
     setProducts(dataJson);
     
