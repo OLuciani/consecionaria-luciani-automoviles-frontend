@@ -30,7 +30,7 @@ const ProductDetail = () => {
           {/* Creo el artículo para ver un solo producto con sus detalles */}
           <article className="article-product-detail">
             <div className='div-image-details'>
-              <img className='image-product-details' src={car.imageUrl} alt={`Foto ${car.name}`} />
+              <img className='image-product-details' src={`/public${car.imageUrl}`} alt={`Foto ${car.name}`} />
             </div>
             <p className='p-name'><b>{car.name}</b></p>
             <p><b>Precio:</b> U$S {car.price}</p>

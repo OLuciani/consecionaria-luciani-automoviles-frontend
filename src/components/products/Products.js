@@ -38,7 +38,7 @@ const Products = () => {
                 <Link key={id} to={`/productDetail/${product._id}`}> {/* Uso Link p/ir a productDetail llevando el id.Puse id en Route */}
                   {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                   <article className="article">
-                    <img src={product.imageUrl} alt={`Foto ${product.name}`} />
+                    <img src={`/public${product.imageUrl}`} alt={`Foto ${product.name}`} />
                     <p className="parrafo"><b>{product.name}</b></p>
                   </article>
                 </Link>
