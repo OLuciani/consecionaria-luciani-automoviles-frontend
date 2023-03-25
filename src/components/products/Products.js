@@ -9,7 +9,7 @@ const Products = () => {
 
   /* Hago el fetch con la api del backend que está en el servidor */
   useEffect(() => {
-    fetch("https://consecionaria-luciani-automoviles-backend.onrender.com/api/list")
+    fetch("/api/list")
       .then((res) => res.json())
       .then((allCars) => {
         //console.log(allAutomoviles);
