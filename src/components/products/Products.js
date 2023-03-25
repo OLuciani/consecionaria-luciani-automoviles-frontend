@@ -8,15 +8,26 @@ const Products = () => {
   const [products, setProducts] = useState([]);
 
   /* Hago el fetch con la api del backend que está en el servidor */
-  useEffect(() => {
-    fetch("/api/list")
-      .then((res) => res.json())
-      .then((allCars) => {
-        //console.log(allAutomoviles);
-        setProducts(allCars);
-      })
-      .catch((error) => console.log(error));
+  useEffect(() => { 
+     consumeApiBackend()
   }, []);
+
+  const consumeApiBackend = async () => {
+    const data = await fetch("/api/list");
+    const dataJson = await data.json();
+    setProducts(dataJson);
+    
+  }
+
+  /* fetch("/api/list")
+    .then((res) => res.json())
+    .then((allCars) => {
+      //console.log(allAutomoviles);
+      setProducts(allCars);
+    })
+    .catch((error) => console.log(error)); */
+
+ 
 
  /*  useEffect(() => {
     console.log("Se actualizo el componente");
