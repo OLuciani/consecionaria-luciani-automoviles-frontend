@@ -25,7 +25,7 @@ const ProductDetail = () => {
     <>
          <NavBar />
         <div className='div-car-details'>
-          <h1>Car Details</h1>
+         {/*  <h1>Car Details</h1> */}
 
           {/* Creo el artículo para ver un solo producto con sus detalles */}
           <article className="article-product-detail">
@@ -36,6 +36,8 @@ const ProductDetail = () => {
             <p><b>Precio:</b> U$S {car.price}</p>
             <p><b>Modelo:</b> {car.model}</p>
           </article>
+
+          <p>Te está esperando !!<br/>LLegate a nuestro local, lo probás y si es de tu agrado te lo llevás.<br/>Financiación a medida.</p>
         </div>
 
         <div className='div-footer'>

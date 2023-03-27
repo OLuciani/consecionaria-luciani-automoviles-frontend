@@ -44,10 +44,11 @@ const Home = () => {
               </Carousel>
             </div>
 
-            <p>
-              En nuestro local encontrarás los mejores usados del mercado. Te
-              esperamos todos los días de 9 a 18 hs .
-            </p>
+            <p><b>Más de 25 años de trayectoria</b><br/>¡Tu usado vale! Todas las marcas. Acercate y conocé los usados seleccionados que tenemos para vos. Financiacion a medida.</p>
+           
+            <p><b>Compramos tu Usado</b><br/>Ahora podés traer tu auto, sea cual sea la marca a nuestra taller. Consultá promos y beneficios.</p>
+
+            <p><b>Probalo </b><br/>Probá nuestros usados certificados, acercate y conocé todo los beneficios que tenemos para vos. Tres meses de cobertura mecánica.</p>
           </div>
         </main>
         <Footer />

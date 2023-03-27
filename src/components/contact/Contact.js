@@ -14,30 +14,33 @@ const Contact = () => {
          
            <h2 className='text-center titulo-contact'>Información de contacto</h2>
 
-          <p><b>Dirección:</b> Lagunilla 327. Ciudad de Córdoba. Rep. Argentina</p>
-          <br/>
-
-          <div className='box-p-icon'>
-            <p><b>Teléfono:</b> 54 9 351 123456</p>
-            <i className="bi bi-telephone-fill" />
-          </div>   
-          <br/>
-        
-          <div className='box-p-icon'>   
-            <p><b>Email:</b> lucianiautomoviles@gmail.com</p>
-            <i className="bi bi-envelope-at-fill" />
+           <div className='box-p-icon'>
+            <i class="bi bi-geo-alt-fill"></i>
+            <p>Dirección: Sucre 327. Ciudad de Córdoba.<br/>Argentina</p>
           </div> 
           <br/>
 
           <div className='box-p-icon'>
-            <p><b>Facebook</b></p>
+            <i className="bi bi-telephone-fill" />
+            <p>Teléfono: 54 9 351 123456</p>
+          </div>   
+          <br/>
+        
+          <div className='box-p-icon'>   
+            <i className="bi bi-envelope-at-fill" />
+            <p>Email: lucianiautomoviles@gmail.com</p>
+          </div> 
+          <br/>
+
+          <div className='box-p-icon'>
             <i className="bi bi-facebook" /> 
+            <p>Facebook</p>
           </div>
           <br/>
 
           <div className='box-p-icon'>
-            <p><b>Instagram</b></p>
             <i className="bi bi-instagram" />
+            <p>Instagram</p>
           </div>
 
       </main>
