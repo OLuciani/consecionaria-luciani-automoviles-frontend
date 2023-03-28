@@ -36,7 +36,13 @@ article {
     color: black;
 }
 
-
+.cargando {
+    color: red;
+    font-size: 22px;
+    min-height: 68vh;
+    padding-top: 25vh;
+    font-weight: 700;
+}
 
 
 

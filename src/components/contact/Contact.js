@@ -15,7 +15,7 @@ const Contact = () => {
            <h2 className='text-center titulo-contact'>Información de contacto</h2>
 
            <div className='box-p-icon'>
-            <i class="bi bi-geo-alt-fill"></i>
+            <i className="bi bi-geo-alt-fill"></i>
             <p>Dirección: Sucre 327. Ciudad de Córdoba.<br/>Argentina</p>
           </div> 
           <br/>

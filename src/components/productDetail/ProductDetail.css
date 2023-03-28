@@ -33,7 +33,7 @@ article {
 
 /* Con esto logro el posicionamiento del footer en la parte baja */
 .div-car-details {
-    min-height: 83vh;
+    min-height: 79.5vh;
 }
 
 /* **************Media Query**************** */
