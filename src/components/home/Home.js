@@ -2,9 +2,12 @@ import React from "react";
 import NavBar from "../navBar/NavBar";
 import "./Home.css";
 import Carousel from "react-bootstrap/Carousel";
-import imageVMW from "./img/VMW5.jpg";
-import imageFerrari from "./img/Ferrari5.jpg";
-import imageLamborghini from "./img/Lamborghini1.jpg";
+//import imageVMW from "./img/VMW5.jpg";
+//import imageFerrari from "./img/Ferrari5.jpg";
+//import imageLamborghini from "./img/Lamborghini1.jpg";
+import imageMercedesBenzGLC1 from "./img/Mercedes-Benz GLC L SUV1.jpg";
+import imageMercedesBenzGLC2 from "./img/Mercedes-Benz GLC L SUV2.jpg";
+import imageMercedesBenzGLC3 from "./img/Mercedes-Benz GLC L SUV3.jpg";
 import Footer from "../footer/Footer";
 
 const Home = () => {
@@ -15,11 +18,11 @@ const Home = () => {
         </header>
 
         <main>
-          <h2 className="text-center title-home">Luciani Automóviles</h2>
+          {/* <h2 className="text-center title-home">Luciani Automóviles</h2> */}
           
           <div className="div-body-home"> 
             
-            <hr />
+            {/* <hr /> */}
             
             {/* Componente Carousel de Bootstrap, modificado */}
             <div className="d-flex justify-content-center">
@@ -27,19 +30,19 @@ const Home = () => {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={imageFerrari}
+                    src={imageMercedesBenzGLC3}
                     alt="First slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={imageLamborghini}
+                    src={imageMercedesBenzGLC1}
                     alt="Second slide"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img className="d-block w-100" src={imageVMW} alt="Third slide" />
+                  <img className="d-block w-100" src={imageMercedesBenzGLC2} alt="Third slide" />
                 </Carousel.Item>
               </Carousel>
             </div>

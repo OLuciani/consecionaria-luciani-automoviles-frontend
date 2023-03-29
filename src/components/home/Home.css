@@ -7,13 +7,18 @@
 .carousel {
     width: 90%;
     margin-bottom: 20px;
-    border: solid 1px black;
+    /* border: solid 1px black; */
+    /* margin-top: 2vh; */
 }
 
 p {
     margin-left: 2.5vw;
     margin-right: 2.5vw;
 
+}
+
+.sobre-titulo {
+    color: white;
 }
 
 /* Con esto logro el posicionamiento del footer en la parte baja */
@@ -38,7 +43,7 @@ p {
 
 @media (min-width: 1200px) {
     .carousel {
-        width: 53%;
+        width: 63%;
     }
 }
 
