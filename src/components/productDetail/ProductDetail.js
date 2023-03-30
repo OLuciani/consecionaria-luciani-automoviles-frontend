@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import "./ProductDetail.css";
-import NavBar from "../navBar/NavBar";
+//import NavBar from "../navBar/NavBar";
 import { useParams } from 'react-router-dom';
 import Footer from '../footer/Footer';
+import NavBar1 from '../navBar1/NavBar1';
+import SideBar from '../sideBar/SideBar';
 
 const ProductDetail = () => {
   const [car, setCar] = useState([]);
@@ -23,7 +25,9 @@ const ProductDetail = () => {
 
   return (
     <>
-         <NavBar />
+      <NavBar1 />
+      <SideBar />
+         {/* <NavBar /> */}
         <div className='div-car-details'>
          {/*  <h1>Car Details</h1> */}
 

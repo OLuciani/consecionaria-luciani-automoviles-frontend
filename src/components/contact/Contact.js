@@ -1,13 +1,18 @@
 import React from 'react';
+import NavBar1 from '../navBar1/NavBar1';
 import Footer from '../footer/Footer';
-import NavBar from '../navBar/NavBar';
+//import NavBar from '../navBar/NavBar';
 import "./Contact.css";
+import SideBar from '../sideBar/SideBar';
 
 const Contact = () => {
   return (
     <>
       <header>
-        <NavBar />
+        <NavBar1 />
+        <SideBar />
+
+        {/* <NavBar /> */}
       </header>
 
       <main className='div-box-contact container-fluid'>

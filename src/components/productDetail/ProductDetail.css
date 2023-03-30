@@ -7,7 +7,7 @@ h1 {
     margin-top: 2vh;
     width: 90%;
     text-align: center;
-    border: solid 1px;
+    /* border: solid 1px; */
     box-sizing: border-box;
     margin-bottom: 3vh;
 }

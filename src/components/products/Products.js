@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import NavBar1 from "../navBar1/NavBar1";
 import Footer from "../footer/Footer";
-import NavBar from "../navBar/NavBar";
+//import NavBar from "../navBar/NavBar";
 import "./Products.css";
+import SideBar from "../sideBar/SideBar";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -20,7 +22,10 @@ const Products = () => {
   return (
     <>
       <header>
-        <NavBar />
+        <NavBar1 />
+
+        <SideBar />
+        {/* <NavBar /> */}
       </header>
 
       <main>

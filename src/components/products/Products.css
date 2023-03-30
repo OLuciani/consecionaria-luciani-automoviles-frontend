@@ -9,7 +9,7 @@ article {
 
 .article {
     color: black;
-    border: solid 1.5px black;
+    /* border: solid 1.5px black; */
     margin-bottom: 20px;
     background-color: white;
     box-sizing: border-box;
@@ -37,7 +37,7 @@ article {
 }
 
 .cargando {
-    color: red;
+    color: black;
     font-size: 22px;
     min-height: 68vh;
     padding-top: 25vh;

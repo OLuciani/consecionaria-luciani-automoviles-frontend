@@ -1,0 +1,7 @@
+.name-button {
+    color: lightgray;
+}
+
+.name-button:hover {
+    color: white;
+}

@@ -1,0 +1,37 @@
+.sidebar {
+    position: absolute;
+    background-color: gray;
+    /* border-left: solid 1px white; */
+    text-align:left;
+    padding-top: 20%;
+    top: 56.5px;
+    right: 0;
+    width: 50vw;
+    height: 40vh;
+    color: white;
+    z-index: 1;
+  } 
+
+  .sidebar a {
+      text-decoration: none;
+  }
+  
+  .close-sidebar {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    margin-top:-30%;
+    margin-left: 15%;
+  }
+  
+  /*  .close-sidebar:hover {
+    border: solid 2px rgb(243, 136, 94);
+  } */
+  
+  .component-sidebar {
+    margin-bottom: 15%;
+  }
+  
+  .sidebar {
+    display: none;
+  }

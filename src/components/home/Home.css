@@ -5,12 +5,16 @@
 
 /* Ancho y posicionamiento del componente Carousel */
 .carousel {
-    width: 90%;
+    width: 100%;
     margin-bottom: 20px;
     /* border: solid 1px black; */
     /* margin-top: 2vh; */
 }
 
+.carousel img {
+    max-height: 100vh;
+}
+ 
 p {
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -26,9 +30,18 @@ p {
     min-height: 82vh;
 }
 
+.imagen-fondo-home {
+    width: 100%;
+    max-height: 93vh;
+}
+
+.box-home {
+    text-align: center;
+}
+
 
 /* **************Media Query**************** */
-
+/* 
 @media (min-width: 700px) {
     .carousel {
         width: 75%;
@@ -46,4 +59,4 @@ p {
         width: 63%;
     }
 }
-
+ */

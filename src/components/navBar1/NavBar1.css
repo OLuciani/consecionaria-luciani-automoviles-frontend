@@ -1,0 +1,46 @@
+.icono-burger {
+    color: white;
+    /* margin-left: 75%; */
+  }
+
+  .nombre-empresa {
+    color: white;
+    font-size: 22px;
+    /* font-weight: 700; */
+  }
+  
+  .navbar1 {
+    padding-top: 8px;
+      background-color: black;
+      text-align: center;
+   /*  width: 95%; */
+    /* padding-top: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: baseline;
+    z-index: 1;
+  }  
+
+  .navbar1 a {
+      text-decoration: none;
+  }
+  
+  .button-header {
+    display: none;
+  }
+
+   @media (min-width: 426px) {
+    .icono-burger {
+      display: none;
+    } 
+  
+    .button-header {
+      display: block;
+    } 
+
+    /* .nombre-empresa {
+      display: none;
+    } */
+  } 

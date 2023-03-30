@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../navBar/NavBar";
+//import NavBar from "../navBar/NavBar";
 import "./Home.css";
 import Carousel from "react-bootstrap/Carousel";
 //import imageVMW from "./img/VMW5.jpg";
@@ -8,19 +8,27 @@ import Carousel from "react-bootstrap/Carousel";
 import imageMercedesBenzGLC1 from "./img/Mercedes-Benz GLC L SUV1.jpg";
 import imageMercedesBenzGLC2 from "./img/Mercedes-Benz GLC L SUV2.jpg";
 import imageMercedesBenzGLC3 from "./img/Mercedes-Benz GLC L SUV3.jpg";
+import fondoHomeMercedezBenz from "./img/Coupé Mercedes Benz.png"
 import Footer from "../footer/Footer";
+import Navbar1 from "../navBar1/NavBar1";
+import SideBar from "../sideBar/SideBar";
 
 const Home = () => {
   return (
     <>
         <header>
-          <NavBar />
+          <Navbar1 />
+          <SideBar />
+          {/* <NavBar /> */}
         </header>
 
-        <main>
+        <main className="box-home">
           {/* <h2 className="text-center title-home">Luciani Automóviles</h2> */}
+           
+          <img className="imagen-fondo-home" src={fondoHomeMercedezBenz} alt="Foto fondo home" />
           
-          <div className="div-body-home"> 
+          
+          <div /* className="div-body-home" */> 
             
             {/* <hr /> */}
             
