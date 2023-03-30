@@ -25,7 +25,7 @@ const Home = () => {
         <main className="box-home">
           {/* <h2 className="text-center title-home">Luciani Automóviles</h2> */}
            
-          <img className="imagen-fondo-home" src={fondoHomeMercedezBenz} alt="Foto fondo home" />
+          <img className="imagen-fondo-home" src={fondoHomeMercedezBenz} alt="Foto fondo home" /> 
           
           
           <div /* className="div-body-home" */> 

@@ -1,13 +1,13 @@
 .sidebar {
     position: absolute;
-    background-color: gray;
+    background-color: rgb(123, 86, 86);
     /* border-left: solid 1px white; */
     text-align:left;
     padding-top: 20%;
     top: 56.5px;
     right: 0;
     width: 50vw;
-    height: 40vh;
+    height: 50vh;
     color: white;
     z-index: 1;
   } 

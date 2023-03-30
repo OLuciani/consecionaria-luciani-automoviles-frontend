@@ -29,9 +29,9 @@ const Products = () => {
       </header>
 
       <main>
-        <h1 className="text-center title-products">Galería de usados</h1>
+        <h1 className="text-center title-products">Galería de usados</h1> 
 
-        <hr />
+        <hr /> 
 
         <div className="list-cars">
  
