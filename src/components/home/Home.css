@@ -10,10 +10,12 @@ html, body {
 
 .imagen-fondo-home1 {
     width: 100%;
-    max-height: 100vh;
+    /* max-height: 100vh; */
+
 }
 
 .box-promo-electrico {
+    position: relative;
     background-color: rgb(179, 130, 130);
     /* height: 10%; */
 }
@@ -78,6 +80,7 @@ html, body {
 
 .imagen-fondo-home2 {
     max-width: 100%;
+    margin-bottom: 2vh;
 }
 
 .informes p {

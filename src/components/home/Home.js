@@ -8,7 +8,7 @@ import "./Home.css";
 //import imageMercedesBenzGLC1 from "./img/Mercedes-Benz GLC L SUV1.jpg";
 //import imageMercedesBenzGLC2 from "./img/Mercedes-Benz GLC L SUV2.jpg";
 //import imageMercedesBenzGLC3 from "./img/Mercedes-Benz GLC L SUV3.jpg";
-import fondoHomeMercedezBenz from "./img/Coupé Mercedes Benz.png";
+import fondoHomeMercedezBenz from "./img/MBenz2023-EQS-SUV-Gallery_001-XL.jpg";
 import imageHomeMB from "./img/MercedesBenz_HKW_EQS_SUV_DR.jpg";
 import Footer from "../footer/Footer";
 import Navbar1 from "../navBar1/NavBar1";
@@ -27,23 +27,19 @@ const Home = () => {
         <main className="main-home">
           <div className="container-promo-electric ">
             <div className="box-promo-electrico">
-
-              <div className="sub-box-promo-electrico">
                 
-                <div className="promo-electric">
-                  <p className="titulo-promo1">Haz que este año sea eléctrico.</p>
-                  <p className="parrafo-promo1">Con ofertas especiales en el EQB y el EQS 2022, tu vehículo eléctrico ideal finalmente está dentro del alcance.</p>
-                </div>
+              <div className="promo-electric">
+                <p className="titulo-promo1">Haz que este año sea eléctrico.</p>
+                <p className="parrafo-promo1">Con ofertas especiales en el EQB y el EQS 2022, tu vehículo eléctrico ideal finalmente está dentro del alcance.</p>
+              </div>
 
-                <div className="box-buttons">
-                  <div className="button-explorar">
-                    <Link to={"/products"}><p>Explorar ofertas</p></Link>
-                  </div>
-                  <div className="button-accesorios">
-                    <p>Accesorios</p>
-                  </div>
+              <div className="box-buttons">
+                <div className="button-explorar">
+                  <Link to={"/products"}><p>Explorar ofertas</p></Link>
                 </div>
-                
+                <div className="button-accesorios">
+                  <p>Accesorios</p>
+                </div>
               </div>
 
             </div>
