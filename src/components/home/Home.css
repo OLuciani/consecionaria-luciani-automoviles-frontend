@@ -1,62 +1,113 @@
-.title-home {
-    margin-top: 1vh;
-    margin-bottom: -1vh;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-/* Ancho y posicionamiento del componente Carousel */
-.carousel {
+html, body {
     width: 100%;
-    margin-bottom: 20px;
-    /* border: solid 1px black; */
-    /* margin-top: 2vh; */
+    height: 100%;
 }
 
-.carousel img {
-    max-height: 93vh;
-}
- 
-p {
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-
-}
-
-.sobre-titulo {
-    color: white;
-}
-
-/* Con esto logro el posicionamiento del footer en la parte baja */
-.div-body-home {
-    min-height: 82vh;
-}
-
-.imagen-fondo-home {
+.imagen-fondo-home1 {
     width: 100%;
-    max-height: 93vh;
+    max-height: 100vh;
 }
 
-.box-home {
+.box-promo-electrico {
+    background-color: rgb(179, 130, 130);
+    /* height: 10%; */
+}
+
+.container-promo-electric {
+    position: relative;
+    
+}
+
+.titulo-promo1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
     text-align: center;
 }
 
-
-/* **************Media Query**************** */
-/* 
-@media (min-width: 700px) {
-    .carousel {
-        width: 75%;
-    }
+.promo-electric p {
+    font-weight: 600;
+    margin-bottom: 3px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
-@media (min-width: 1000px) {
-    .carousel {
-        width: 65%;
+.box-buttons {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-explorar {
+    width: 40%;
+    height: 25px;
+    background-color: lightgrey;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.button-explorar:hover {
+    box-shadow: 2px 2px 5px;
+}
+
+.button-explorar a {
+    text-decoration: none;
+    color: black !important;
+}
+
+.button-accesorios {
+    width: 40%;
+    height: 25px;
+    background-color: rgb(69, 191, 232);
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+.imagen-fondo-home2 {
+    max-width: 100%;
+}
+
+.informes p {
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+/* **************Media Query**************** */
+
+@media (min-width: 768px) {
+    .box-promo-electrico {
+        width: 40%;
+        background-color: rgba(179, 130, 130, 0.5);
+        position: absolute;
+        top: 5vh;
+        left: 5vw;
+    }
+
+    .imagen-fondo-home1 {
+        margin-top: 0%;
     }
 }
 
 @media (min-width: 1200px) {
-    .carousel {
-        width: 63%;
+    .box-promo-electrico {
+        top: 15vh;
     }
 }
- */
+
+
+
+

@@ -2,14 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ComponentNavbar from '../componentNavBar/ComponentNavbar';
 import "./NavBar1.css"
+import imageIconMercedez from "./img/icons8-mercedes-67.png";
 
 const NavBar1 = () => {
   return (
-    <div className='div-navbar'>
+    <div className='div-navbar1'>
         <nav className="navbar1">
-          <div>
-            <p className='nombre-empresa'>Mercedez Benz</p>
-          </div>
+          <Link to="/">
+            <div className='box-icono-nombre'>
+            <span className='nombre-empresa'>Luciani<img className='icono-mercedes' src={imageIconMercedez} alt="Imagen icono Mercedez Benz" /></span> 
+            </div>
+          </Link>
 
           <div className="button-header">
             <Link to="/"><ComponentNavbar name={"Inicio"} /></Link>

@@ -1,5 +1,7 @@
 .name-button {
     color: lightgray;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .name-button:hover {
