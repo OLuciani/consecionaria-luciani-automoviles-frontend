@@ -41,7 +41,7 @@ const ProductDetail = () => {
             <p><b>Modelo:</b> {car.model}</p>
           </article>
 
-          <p>Te está esperando !!<br/>LLegate a nuestro local, lo probás y si es de tu agrado te lo llevás.<br/>Financiación a medida.</p>
+          <p className='texto-product-detail'>Te está esperando !!<br/>LLegate a nuestro local, lo probás y si es de tu agrado te lo llevás.<br/>Financiación a medida.</p>
         </div>
 
         <div className='div-footer'>

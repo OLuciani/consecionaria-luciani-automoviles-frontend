@@ -23,9 +23,6 @@ article {
     margin-bottom: 2vh;
 }
 
-.div-footer {
-    margin-top: 2vh;
-}
 
 .p-name {
     font-size: 20px;
@@ -34,6 +31,14 @@ article {
 /* Con esto logro el posicionamiento del footer en la parte baja */
 .div-car-details {
     min-height: 79.5vh;
+}
+
+.div-footer {
+    margin-top: 2vh;
+}
+
+.texto-product-detail {
+    margin-left: 20px;
 }
 
 /* **************Media Query**************** */

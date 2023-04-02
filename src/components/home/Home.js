@@ -8,7 +8,7 @@ import "./Home.css";
 //import imageMercedesBenzGLC1 from "./img/Mercedes-Benz GLC L SUV1.jpg";
 //import imageMercedesBenzGLC2 from "./img/Mercedes-Benz GLC L SUV2.jpg";
 //import imageMercedesBenzGLC3 from "./img/Mercedes-Benz GLC L SUV3.jpg";
-import fondoHomeMercedezBenz from "./img/MBenz2023-EQS-SUV-Gallery_001-XL.jpg";
+import fondoHomeMercedezBenz from "./img/Coupé Mercedes Benz.png";
 import imageHomeMB from "./img/MercedesBenz_HKW_EQS_SUV_DR.jpg";
 import Footer from "../footer/Footer";
 import Navbar1 from "../navBar1/NavBar1";
