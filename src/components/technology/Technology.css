@@ -24,7 +24,6 @@ html, body {
    justify-self: center;
    padding-top: 30px;
    padding-bottom: 30px;
-   
 }
 
 .contenedor-image2-technology {
@@ -62,7 +61,7 @@ html, body {
 }
 
 .futuro-sostenible-textos .titulo {
-    font-size: 48px;
+    font-size: 28px;
 }
 
 .futuro-sostenible-textos .texto {
@@ -76,13 +75,13 @@ html, body {
     display: grid;
 }
 
-.futuro-sostenible-imagen {
+.div-futuro-sostenible-imagen {
     width: 70%;
     justify-self: center;
     align-self: center;
 }
 
-.futuro-sostenible-imagen img {
+.div-futuro-sostenible-imagen img {
     width: 100%;
 }
 
@@ -112,7 +111,7 @@ html, body {
 }
 
 .movilidad-eficiente-textos .titulo {
-    font-size: 48px;
+    font-size: 28px;
 }
 
 .movilidad-eficiente-textos .texto {
@@ -126,41 +125,45 @@ html, body {
     display: grid;
 }
 
-.movilidad-eficiente-imagen {
+.div-movilidad-eficiente-imagen {
     width: 70%;
     justify-self: center;
     align-self: center;
 }
 
-.movilidad-eficiente-imagen img {
+.div-movilidad-eficiente-imagen img {
     width: 100%;
 }
 
 /* **************Media Query**************** */
 
-@media (min-width: 768px) {
+@media (min-width: 935px) {
     .image-technology {
         width: 50%;
     }
 
     .futuro-sostenible-textos {
-        width: 75%;
+        width: 85%;
     }
 
-    .futuro-sostenible-imagen {
-        width: 75%;
+    .div-futuro-sostenible-imagen {
+        width: 85%;
     }
 
     .movilidad-eficiente-textos {
-        width: 75%;
+        width: 85%;
     }
 
-    .movilidad-eficiente-imagen {
-        width: 75%;
+    .div-movilidad-eficiente-imagen {
+        width: 85%;
+    }
+
+    .image-technology {
+        width: 42%;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 935px) {
     .contenedor-futuro-sostenible {
         flex-direction:column;
 
