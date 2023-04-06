@@ -1,66 +1,59 @@
 .icono-burger {
-    color: white;
-     /* margin-left: 75%;  */
-  }
+  color: white;
+}
 
-  .icono-mercedes {
-    width: 26px;
-    color: white;
-    margin-left: 15px;
-  }
+.icono-mercedes {
+  width: 26px;
+  color: white;
+  margin-left: 10px;
+}
 
-  .nombre-empresa {
-    color: white;
-    font-size: 21px;
-    font-weight: 600; 
-  }
+.nombre-empresa {
+  color: white;
+  font-size: 21px;
+  font-weight: 600;
+}
 
-  .div-navbar1{
-    background-color: black;
-    min-height: 60px;
-    width: 100%;
-    display: grid;
-  }
-  
-  .navbar1 {
-    /* padding-top: 8px;
-    padding-bottom: 4px; */
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items: baseline;
-    padding-left: 20px;
-    padding-right: 20px;
-    align-self: center;
-    box-sizing: border-box;
-  }  
+.div-navbar1 {
+  background-color: black;
+  min-height: 60px;
+  width: 100%;
+  display: grid;
+}
 
-  .navbar1 a {
-    text-decoration: none;
-  }
-  
-  .button-header {
+.navbar1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-self: center;
+  box-sizing: border-box;
+}
+
+.navbar1 a {
+  text-decoration: none;
+}
+
+.button-header {
+  display: none;
+}
+
+@media (min-width: 426px) {
+  .icono-burger {
     display: none;
   }
 
-   @media (min-width: 426px) {
-    .icono-burger {
-      display: none;
-    } 
-  
-    .button-header {
-      display: block;
-    } 
+  .button-header {
+    display: block;
+  }
 
-    .navbar1 {
-      padding-right: 0;
-      justify-content: space-around;
-      max-height:30px;
-    }
-    
-   
-      
-    
-  }  
+  .navbar1 {
+    padding-right: 0;
+    padding-left: 0;
+    justify-content: space-around;
+    max-height: 30px;
+  }
+}

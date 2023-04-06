@@ -10,19 +10,14 @@ html, body {
 
 .imagen-fondo-home1 {
     width: 100%;
-    /* max-height: 100vh; */
-
 }
 
 .box-promo-electrico {
-    position: relative;
     background-color: rgb(179, 130, 130);
-    /* height: 10%; */
 }
 
 .container-promo-electric {
     position: relative;
-    
 }
 
 .titulo-promo1 {
@@ -50,14 +45,15 @@ html, body {
 }
 
 .button-explorar {
-    width: 40%;
+    width: 150px;
     height: 25px;
-    background-color: lightgrey;
+    background-color: rgb(119, 119, 208);
     margin: auto;
     text-align: center;
     font-weight: 600;
     margin-bottom: 10px;
     margin-top: 10px;
+    
 }
 
 .button-explorar:hover {
@@ -66,7 +62,7 @@ html, body {
 
 .button-explorar a {
     text-decoration: none;
-    color: black !important;
+    color: white !important;
 }
 
 .button-accesorios {
@@ -80,13 +76,10 @@ html, body {
 
 .imagen-fondo-home2 {
     width: 100%;
-    margin-bottom: 2vh;
 }
 
-.informes p {
-    margin-left: 15px;
-    margin-right: 15px;
-    
+.box-promo-leyend {
+    background-color: rgb(137, 207, 231);
 }
 
 /* **************Media Query**************** */
@@ -103,13 +96,29 @@ html, body {
     .imagen-fondo-home1 {
         margin-top: 0%;
     }
+
+    .box-promo-leyend {
+        width: 40%;
+        background-color: rgba(137, 207, 231, 0.6);
+        position: absolute;
+        top: 5vh;
+        left: 5vw;
+    }
+
+    .imagen-fondo-home2 {
+        margin-top: 0%;
+    }
 }
 
 @media (min-width: 1200px) {
     .box-promo-electrico {
-        top: 15vh;
+        top: 25vh;
     }
-}
+
+    .box-promo-leyend {
+        top: 25vh;
+    }
+} 
 
 
 

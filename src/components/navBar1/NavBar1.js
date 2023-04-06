@@ -14,11 +14,20 @@ const NavBar1 = () => {
             </div>
           </Link>
 
-          <div className="button-header">
+          {/* <div className="button-header">
             <Link to="/"><ComponentNavbar name={"Inicio"} /></Link>
-          </div>
+          </div> */}
+
           <div className="button-header">
-            <Link to="/products"><ComponentNavbar name={"Galería"} /></Link>
+            <Link to="/models"><ComponentNavbar name={"Modelos"} /></Link>
+          </div>
+
+          <div className="button-header">
+            <Link to="/products"><ComponentNavbar name={"Usados"} /></Link>
+          </div>
+
+          <div className="button-header">
+            <Link to="/technology"><ComponentNavbar name={"Tecnología"} /></Link>
           </div>
           
           <div className="button-header">
