@@ -48,6 +48,8 @@ const ExplorarElectricos = () => {
                       </Link> 
                       
                     );
+                  } else {
+                    return null
                   }
                 })
               
