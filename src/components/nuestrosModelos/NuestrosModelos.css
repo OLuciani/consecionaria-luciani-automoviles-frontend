@@ -1,0 +1,63 @@
+.box {
+    background-color: black;
+    color: white;
+} 
+
+.title-products {
+    padding-top: 1%;
+}
+
+.article-modelos{
+    color: white;
+    margin-bottom: 20px;
+    background-color: black;
+    box-sizing: border-box;
+    width: 90%;
+    text-align: center;
+}
+
+.article-modelos:hover {
+    box-shadow: 2px 2px 5px;
+}
+
+.article-modelos img {
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.list-cars-modelos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.list-cars-modelos a {
+    text-decoration: none;
+    color: black;
+}
+
+.cargando {
+    color: black;
+    font-size: 22px;
+    min-height: 70vh;
+    padding-top: 25vh;
+    font-weight: 700;
+}
+
+.titulo-categoria {
+    padding-top: 1vh;
+    /* font-weight: 700; */
+}
+
+.title-nuestros-modelos { 
+    text-decoration: underline;
+}
+
+@media (min-width: 425px){
+    .article-modelos{
+        width: 400px 
+    }
+}

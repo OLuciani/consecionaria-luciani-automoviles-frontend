@@ -1,7 +1,7 @@
-h1 {
+/* h1 {
     text-align: center;
     padding-top: 1vh;
-}
+} */
 
 .article-product-detail {
     margin-top: 2vh;
@@ -15,7 +15,7 @@ h1 {
 article {
     margin: auto;
     padding-top: 2vh;
-    
+
 }
 
 .image-product-details {

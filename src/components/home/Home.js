@@ -35,7 +35,7 @@ const Home = () => {
 
               <div className="box-buttons">
                 <div className="button-explorar">
-                  <Link to={"/products"}><p>Explorar ofertas</p></Link>
+                  <Link to={"/exploreElectric"}><p>Explorar eléctricos</p></Link>
                 </div>
                 {/* <div className="button-accesorios">
                   <p>Accesorios</p>
@@ -59,7 +59,7 @@ const Home = () => {
 
               <div className="box-buttons">
                 <div className="button-explorar">
-                  <Link to={"/products"}><p>Explorar ofertas</p></Link>
+                  <Link to={"/products"}><p>Explorar usados</p></Link>
                 </div>
                {/*  <div className="button-accesorios">
                   <p>Accesorios</p>
