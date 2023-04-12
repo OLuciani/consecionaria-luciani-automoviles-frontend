@@ -64,7 +64,7 @@ const NuestrosModelos = () => {
           {
             (vehiculs.length < 1) ? <p className="cargando">Cargando Imágenes...</p>:
                vehiculs.map((vehicul) => { //Uso .map para listar los productos
-                  console.log(typeof(vehicul.imageUrl));
+                  //console.log(typeof(vehicul.imageUrl));
                   let id = vehicul._id;
                   if(vehicul.category === "Combustión") { 
                     return (
@@ -92,7 +92,7 @@ const NuestrosModelos = () => {
           {
             (vehiculs.length < 1) ? <p className="cargando">Cargando Imágenes...</p>:
                vehiculs.map((vehicul) => { //Uso .map para listar los productos
-                  console.log(typeof(vehicul.imageUrl));
+                  //console.log(typeof(vehicul.imageUrl));
                   let id = vehicul._id;
                   if(vehicul.category === "Híbrido"){
                     return (
@@ -120,7 +120,7 @@ const NuestrosModelos = () => {
           {
             (vehiculs.length < 1) ? <p className="cargando">Cargando Imágenes...</p>:
                vehiculs.map((vehicul) => { //Uso .map para listar los productos
-                  console.log(typeof(vehicul.imageUrl));
+                  //console.log(typeof(vehicul.imageUrl));
                   let id = vehicul._id;
                   if(vehicul.category === "Sedans y Wagons"){ 
                     return (
@@ -148,7 +148,7 @@ const NuestrosModelos = () => {
           {
             (vehiculs.length < 1) ? <p className="cargando">Cargando Imágenes...</p>:
                vehiculs.map((vehicul) => { //Uso .map para listar los productos
-                  console.log(typeof(vehicul.imageUrl));
+                  //console.log(typeof(vehicul.imageUrl));
                   let id = vehicul._id;
                   if(vehicul.category === "Coupes"){ 
                     return (
@@ -176,7 +176,7 @@ const NuestrosModelos = () => {
           {
             (vehiculs.length < 1) ? <p className="cargando">Cargando Imágenes...</p>:
                vehiculs.map((vehicul) => { //Uso .map para listar los productos
-                  console.log(typeof(vehicul.imageUrl));
+                  //console.log(typeof(vehicul.imageUrl));
                   let id = vehicul._id;
                   if(vehicul.category === "Convertibles y Roadsters") {
                     return (

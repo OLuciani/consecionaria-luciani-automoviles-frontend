@@ -8,10 +8,18 @@
   margin-left: 10px;
 }
 
+.icono-mercedes:hover {
+  color: rgb(119, 119, 208);
+}
+
 .nombre-empresa {
   color: white;
   font-size: 21px;
   font-weight: 600;
+}
+
+.nombre-empresa:hover {
+  color: rgb(119, 119, 208);;
 }
 
 .div-navbar1 {

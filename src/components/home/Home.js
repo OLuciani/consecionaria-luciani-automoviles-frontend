@@ -29,8 +29,8 @@ const Home = () => {
             <div className="box-promo-electrico">
                 
               <div className="promo-electric">
-                <p className="titulo-promo1">Haz que este año sea eléctrico.</p>
-                <p className="parrafo-promo1">Con ofertas especiales en el EQB y el EQS 2022, tu vehículo eléctrico ideal finalmente está dentro del alcance.</p>
+                <p className="titulo-promo">Haz que este año sea eléctrico.</p>
+                <p className="parrafo-promo">Con ofertas especiales en el EQB y el EQS 2022, tu vehículo eléctrico ideal finalmente está dentro del alcance.</p>
               </div>
 
               <div className="box-buttons">
@@ -53,8 +53,8 @@ const Home = () => {
             <div className="box-promo-leyend">
                 
               <div className="promo-electric">
-                <p className="titulo-promo1">Despierta la leyenda que llevas dentro.</p>
-                <p className="parrafo-promo1">Ahora puedes, con ofertas especiales para vehículos SL en este emocionante 2023.</p>
+                <p className="titulo-promo">Despierta la leyenda que llevas dentro.</p>
+                <p className="parrafo-promo">Ahora puedes, con ofertas especiales para vehículos SL en este emocionante 2023.</p>
               </div>
 
               <div className="box-buttons">

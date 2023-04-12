@@ -1,6 +1,9 @@
 .div-box-contact {
-    background-color: rgb(241, 235, 235);
+    /* background-color: rgb(241, 235, 235); */
+    background-color: black;
+    color: white;
     min-height: 83.5vh;
+    display: grid;
 }
 
 .titulo-contact {
@@ -13,14 +16,26 @@
 }
 
 .box-p-icon {
+    padding-bottom: 6vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
 }
 
+.box-p-icon p {
+    padding-bottom: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
 .items-contact {
     margin-left: 2vw;
+    font-size: 16px;
+    justify-self: center;
 }
 
 
