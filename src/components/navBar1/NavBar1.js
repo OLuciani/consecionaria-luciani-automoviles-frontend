@@ -19,7 +19,7 @@ const NavBar1 = () => {
           </div> */}
 
           <div className="button-header">
-            <Link to="/models"><ComponentNavbar name={"Modelos"} /></Link>
+            <Link to="/models"><ComponentNavbar name={"Modelos 0km"} /></Link>
           </div>
 
           <div className="button-header">

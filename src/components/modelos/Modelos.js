@@ -33,7 +33,7 @@ const Modelos = () => {
         <hr / > 
         <div className="list-cars-modelos">
           {
-            (vehiculs.length < 1) ? <p className="cargando">Cargando Imágenes...</p>:
+            (vehiculs.length < 1) ? <p className="cargando-imagenes-modelos">Cargando Imágenes...</p>:
                vehiculs.map((vehicul) => { //Uso .map para listar los productos
                   //console.log(typeof(vehicul.imageUrl));
                   let id = vehicul._id;
@@ -62,7 +62,7 @@ const Modelos = () => {
         <hr /> 
         <div className="list-cars-modelos">
           {
-            (vehiculs.length < 1) ? <p className="cargando">Cargando Imágenes...</p>:
+            (vehiculs.length < 1) ? <p className="cargando-imagenes-modelos">Cargando Imágenes...</p>:
                vehiculs.map((vehicul) => { //Uso .map para listar los productos
                   //console.log(typeof(vehicul.imageUrl));
                   let id = vehicul._id;
@@ -90,7 +90,7 @@ const Modelos = () => {
         <hr /> 
         <div className="list-cars-modelos">
           {
-            (vehiculs.length < 1) ? <p className="cargando">Cargando Imágenes...</p>:
+            (vehiculs.length < 1) ? <p className="cargando-imagenes-modelos">Cargando Imágenes...</p>:
                vehiculs.map((vehicul) => { //Uso .map para listar los productos
                   //console.log(typeof(vehicul.imageUrl));
                   let id = vehicul._id;
@@ -118,7 +118,7 @@ const Modelos = () => {
         <hr /> 
         <div className="list-cars-modelos">
           {
-            (vehiculs.length < 1) ? <p className="cargando">Cargando Imágenes...</p>:
+            (vehiculs.length < 1) ? <p className="cargando-imagenes-modelos">Cargando Imágenes...</p>:
                vehiculs.map((vehicul) => { //Uso .map para listar los productos
                   //console.log(typeof(vehicul.imageUrl));
                   let id = vehicul._id;
@@ -146,7 +146,7 @@ const Modelos = () => {
         <hr /> 
         <div className="list-cars-modelos">
           {
-            (vehiculs.length < 1) ? <p className="cargando">Cargando Imágenes...</p>:
+            (vehiculs.length < 1) ? <p className="cargando-imagenes-modelos">Cargando Imágenes...</p>:
                vehiculs.map((vehicul) => { //Uso .map para listar los productos
                   //console.log(typeof(vehicul.imageUrl));
                   let id = vehicul._id;
@@ -174,7 +174,7 @@ const Modelos = () => {
         <hr /> 
         <div className="list-cars-modelos">
           {
-            (vehiculs.length < 1) ? <p className="cargando">Cargando Imágenes...</p>:
+            (vehiculs.length < 1) ? <p className="cargando-imagenes-modelos">Cargando Imágenes...</p>:
                vehiculs.map((vehicul) => { //Uso .map para listar los productos
                   //console.log(typeof(vehicul.imageUrl));
                   let id = vehicul._id;

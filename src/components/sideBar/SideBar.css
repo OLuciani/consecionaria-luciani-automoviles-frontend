@@ -7,8 +7,6 @@
     top: 0;
     right: 0;
     width: 50vw;
-    height: 100vh;
-    color: white;
     z-index: 1;
     padding-left: 20px;
   } 
@@ -18,12 +16,18 @@
   }
   
   .close-sidebar {
-    color: white;
+    /* color: white; */
+    color: rgb(196, 154, 154);
     font-size: 18px;
+    font-weight: 900;
     position: absolute;
     margin-top:-30%;
   }
   
+  .close-sidebar:hover {
+   color: white;
+  }
+
   .component-sidebar {
     margin-bottom: 15%;
   }

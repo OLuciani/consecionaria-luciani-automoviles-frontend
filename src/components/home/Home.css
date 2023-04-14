@@ -8,6 +8,10 @@ html, body {
     height: 100%;
 }
 
+.box-home {
+    background-color: black;
+}
+
 .imagen-fondo-home1 {
     width: 100%;
 }
@@ -22,8 +26,8 @@ html, body {
 
 .parrafo-promo {
     margin-bottom: 3px;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
 .titulo-promo {
@@ -82,6 +86,40 @@ html, body {
     background-color: rgb(137, 207, 231);
 }
 
+.filosofia-diseño {
+    /* background-color: black; */
+    color: white;
+    padding-top: 3vh;
+}
+
+.filosofia-diseño-título {
+    font-size: 28px;
+    
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.filosofia-diseño-párrafo1 {
+    font-size: 18px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.filosofia-diseño-párrafo2 {
+    font-size: 18px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.contenedor-imagen-filosofía-diseño {
+    width: 100%;
+    text-align: center;
+}
+
+.imagen-filosofía-diseño {
+    width: 94%;
+}
+
 /* **************Media Query**************** */
 
 @media (min-width: 768px) {
@@ -107,6 +145,33 @@ html, body {
 
     .imagen-fondo-home2 {
         margin-top: 0%;
+    }
+
+
+
+    .filosofia-diseño {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+    }
+
+    .filosofía-diseño-texto {
+        width: 50%;
+        display: grid;
+    }
+
+    .box-texto-filosofía-diseño {
+        margin-bottom: 0;
+        justify-self: center;
+        align-self:flex-end;
+    }
+
+    .filosofia-diseño-párrafo1 {
+       margin-bottom: -3.3vh;
+    }
+
+    .contenedor-imagen-filosofía-diseño {
+        width: 50%;
     }
 }
 

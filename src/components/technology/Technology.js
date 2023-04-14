@@ -54,9 +54,7 @@ const Technology = () => {
         <div className="contenedor-movilidad-eficiente">
           <div className="box-movilidad-eficiente-textos">
             <div className="movilidad-eficiente-textos">
-              <p className="pre-titulo">
-                Avanzamos hacia una movilidad eficiente
-              </p>
+              <p className="pre-titulo">Avanzamos hacia una movilidad eficiente</p>
 
               <p className="titulo">La movilidad eléctrica de Mercedes Benz</p>
 
@@ -79,13 +77,13 @@ const Technology = () => {
           </div>
         </div>
 
-        {/* <div className="contenedor-image2-technology">
+        <div className="contenedor-image2-technology">
           <img
             className="image-technology"
             src={imagen2PortadaTechnology}
             alt="Foto portada tecnología"
           />
-        </div> */}
+        </div>
 
         <div className="contenedor-futuro-sostenible">
           <div className="box-futuro-sostenible-imagen">
@@ -105,15 +103,6 @@ const Technology = () => {
             </div>
           </div>
         </div>    
-
-
-        <div className="contenedor-image2-technology">
-          <img
-            className="image-technology"
-            src={imagen2PortadaTechnology}
-            alt="Foto portada tecnología"
-          />
-        </div>
 
       </div>
       <Footer />

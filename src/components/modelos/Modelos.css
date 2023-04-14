@@ -39,8 +39,8 @@
     color: black;
 }
 
-.cargando {
-    color: black;
+.cargando-imagenes-modelos {
+    color: white;
     font-size: 22px;
     min-height: 70vh;
     padding-top: 25vh;
@@ -49,12 +49,13 @@
 
 .titulo-categoria {
     padding-top: 1vh;
-    /* font-weight: 700; */
+    font-weight: 600;
 }
 
-.title-nuestros-modelos { 
-    text-decoration: underline;
-}
+.name-modelos { 
+    /* text-decoration: underline; */
+    font-size: 18px;
+} 
 
 @media (min-width: 425px){
     .article-modelos{

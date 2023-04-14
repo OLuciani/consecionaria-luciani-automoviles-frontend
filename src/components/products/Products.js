@@ -20,7 +20,7 @@ const Products = () => {
   }, []);
 
   return (
-    <>
+    <div className="box-products">
       <header>
         <NavBar1 />
 
@@ -62,7 +62,7 @@ const Products = () => {
       <footer>
         <Footer />
       </footer>
-    </>
+    </div>
   );
 };
 

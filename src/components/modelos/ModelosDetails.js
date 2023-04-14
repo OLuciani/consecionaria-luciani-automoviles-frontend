@@ -27,7 +27,7 @@ const ModelosDetails = () => {
       <NavBar1 />
       <SideBar />
       <div className='box-main'>
-        <h5 className='name-model text-center'><b>{car.name}</b></h5>
+        <h4 className='name-model text-center'><b>{car.name}</b></h4>
 
         <div className='container-articles'>
 
