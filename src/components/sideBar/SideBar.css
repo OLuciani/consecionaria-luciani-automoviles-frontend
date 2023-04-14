@@ -1,7 +1,7 @@
 .sidebar {
     position: absolute;
-    /* background-color: rgb(123, 86, 86); */
-    background-color: rgb(111, 89, 89);
+    /* background-color: rgb(111, 89, 89); */
+    background-color: black;
     text-align:left;
     padding-top: 20%;
     top: 0;
@@ -10,7 +10,7 @@
     height: 100vh;
     color: white;
     z-index: 1;
-    padding-left: 15px;
+    padding-left: 20px;
   } 
 
   .sidebar a {

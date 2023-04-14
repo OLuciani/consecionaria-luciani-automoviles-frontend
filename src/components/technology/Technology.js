@@ -4,9 +4,11 @@ import Footer from "../footer/Footer";
 import NavBar1 from "../navBar1/NavBar1";
 import SideBar from "../sideBar/SideBar";
 import imagen1PortadaTechnology from "./img/MB_338328773_998512901524472_1571469182061262582_n.jpg";
-import imagen2PortadaTechnology from "./img/EQ_Specialty_Future_01_XL.jpg";
+import imagen2PortadaTechnology from "./img/mercedes-EQS_Tablero.jpg";
 import imagenFuturoSostenible from "./img/image.MQ6.0.20210412212425.jpeg";
 import imagenMovilidadEficiente from "./img/MBenz2023-EQS-SUV-Gallery_001-XL.jpg";
+import imagenNivelesDeCarga from "./img/Charging-your-EQ-XL.webp";
+
 
 const Technology = () => {
   return (
@@ -62,10 +64,7 @@ const Technology = () => {
                 Hace tiempo que Mercedes-Benz se sumó a la movilidad más
                 sostenible y respetuosa con el medioambiente con Mercedes-EQ,
                 ofreciendo un ecosistema de vehículos eléctricos compuesto por
-                productos, servicios, tecnologías e innovaciones.{/*  Nuestra gama
-                no solo abarca vehículos eléctricos exentos de emisiones locales
-                y casi sin ruido, sino que amplía sus prestaciones a cargadores
-                domésticos y servicios de recarga. */}
+                productos, servicios, tecnologías e innovaciones.
               </p>
             </div>
           </div>
@@ -80,6 +79,34 @@ const Technology = () => {
           </div>
         </div>
 
+        {/* <div className="contenedor-image2-technology">
+          <img
+            className="image-technology"
+            src={imagen2PortadaTechnology}
+            alt="Foto portada tecnología"
+          />
+        </div> */}
+
+        <div className="contenedor-futuro-sostenible">
+          <div className="box-futuro-sostenible-imagen">
+            <div className="div-futuro-sostenible-imagen ">
+              <img src={imagenNivelesDeCarga} alt="Foto Futuro sostenible" />
+            </div>
+          </div>
+
+          <div className="box-futuro-sostenible-textos">
+            <div className="futuro-sostenible-textos">
+
+              <p className="titulo">Niveles de carga</p>
+
+              <p className="texto">
+                Los vehículos eléctricos requieren carga a través de un cargador de nivel 1, 2 o 3. Los tres niveles indican diferentes velocidades de carga, medidas en kilovatios (kW), accesibles a través de cargadores domésticos o estaciones de carga públicas.
+              </p>
+            </div>
+          </div>
+        </div>    
+
+
         <div className="contenedor-image2-technology">
           <img
             className="image-technology"
@@ -87,6 +114,7 @@ const Technology = () => {
             alt="Foto portada tecnología"
           />
         </div>
+
       </div>
       <Footer />
     </>

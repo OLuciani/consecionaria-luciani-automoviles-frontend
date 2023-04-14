@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import NavBar1 from "../navBar1/NavBar1";
 import Footer from "../footer/Footer";
 import SideBar from "../sideBar/SideBar";
-import "./NuestrosModelos.css";
+import "./Modelos.css";
 
-const NuestrosModelos = () => {
+const Modelos = () => {
   const [vehiculs, setVehiculs] = useState([]);
 
   /* Hago el fetch con la api del backend que está en el servidor */
@@ -205,4 +205,4 @@ const NuestrosModelos = () => {
   );
 }
 
-export default NuestrosModelos;
+export default Modelos;

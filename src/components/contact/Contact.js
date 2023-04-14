@@ -46,7 +46,7 @@ const Contact = () => {
           </div>
 
           <div className='box-p-icon'>
-            <i class="bi bi-linkedin"></i>
+            <i className="bi bi-linkedin"></i>
             <p>Linkedin</p>
           </div>
         </div>

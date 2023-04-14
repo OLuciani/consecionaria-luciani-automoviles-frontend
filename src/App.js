@@ -4,9 +4,9 @@ import Contact from './components/contact/Contact';
 import Home from './components/home/Home';
 import ProductDetail from './components/productDetail/ProductDetail';
 import Products from './components/products/Products';
-import NuestrosModelos from './components/nuestrosModelos/NuestrosModelos';
+import Modelos from './components/modelos/Modelos';
 import Technology from './components/technology/Technology';
-import NuestrosModelosDetails from './components/nuestrosModelos/NuestrosModelosDetails';
+import ModelosDetails from './components/modelos/ModelosDetails';
 import ExplorarElectricos from './components/explorarElectricos/ExplorarElectricos';
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
             <Routes>
               {/* Rutas para navegar entre las vistas */}
               <Route path="/" element={<Home />} />
-              <Route path="/models" element={<NuestrosModelos />} />
-              <Route path="/modelsDetails/:car_id" element={<NuestrosModelosDetails />} />
+              <Route path="/models" element={<Modelos />} />
+              <Route path="/modelsDetails/:car_id" element={<ModelosDetails />} />
               <Route path="/products" element={<Products />} />
               <Route path="/technology" element={<Technology />} />
               <Route path="/contact" element={<Contact />} />

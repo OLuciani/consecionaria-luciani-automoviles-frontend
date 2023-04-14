@@ -21,13 +21,13 @@ html, body {
 }
 
 .parrafo-promo {
-    font-weight: 600;
     margin-bottom: 3px;
     margin-left: 3%;
     margin-right: 3%;
 }
 
 .titulo-promo {
+    /* font-family: Roboto, sans-serif; */
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0px;

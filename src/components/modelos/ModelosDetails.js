@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import "./NuestrosModelosDetails.css";
+import "./ModelosDetails.css";
 import { useParams } from 'react-router-dom';
 import Footer from '../footer/Footer';
 import NavBar1 from '../navBar1/NavBar1';
 import SideBar from '../sideBar/SideBar';
 
-const NuestrosModelosDetails = () => {
+const ModelosDetails = () => {
   const [car, setCar] = useState([]);
 
   /* Aquí recupero el id que viene en la url (viene de products) */
@@ -68,6 +68,6 @@ const NuestrosModelosDetails = () => {
   )
 }
 
-export default NuestrosModelosDetails;
+export default ModelosDetails;
 
 

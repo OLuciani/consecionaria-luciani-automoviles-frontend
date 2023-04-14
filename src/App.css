@@ -1,8 +1,4 @@
-/* .App {
-  text-align: center;
-}
- */
-
-body {
-  font-family: sans-serif;
+/* Tipografía de la app */
+.App {
+  font-family: Roboto, sans-serif;
 }
