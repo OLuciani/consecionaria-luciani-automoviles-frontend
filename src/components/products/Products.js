@@ -28,7 +28,7 @@ const Products = () => {
         {/* <NavBar /> */}
       </header>
 
-      <main>
+      <div className="sub-box-products">
         <h1 className="text-center title-products">Galería de usados</h1> 
 
         <hr /> 
@@ -57,7 +57,7 @@ const Products = () => {
           }
 
         </div>
-      </main>
+      </div>
 
       <footer>
         <Footer />

@@ -1,6 +1,11 @@
 .box-products {
     background-color: black;
     color: white;
+    
+}
+
+.sub-box-products {
+    min-height: 86.5vh;
 }
 
 .title-products {
@@ -42,9 +47,9 @@ article {
 }
 
 .cargando {
-    color: black;
+    color: white;
     font-size: 22px;
-    min-height: 70vh;
+    /* min-height: 70vh; */
     padding-top: 25vh;
     font-weight: 700;
 }
