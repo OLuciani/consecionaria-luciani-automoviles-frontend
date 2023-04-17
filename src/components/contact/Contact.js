@@ -46,7 +46,7 @@ const Contact = () => {
           </div>
 
           <div className='div-linkedin'>
-            <a href="https://github.com/OLuciani">
+            <a href="https://www.linkedin.com/in/oscarluciani">
             <div className='box-p-icon'>
                 <i className="bi bi-linkedin"></i>
                 <p>Linkedin</p>
