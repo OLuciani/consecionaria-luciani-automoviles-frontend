@@ -35,6 +35,16 @@
     margin-left: 3vw;
 }
 
+.div-linkedin a {
+    text-decoration: none;
+    color: white;
+}
+
+.div-linkedin a:hover {
+    
+    color: rgb(119, 119, 208);;
+}
+
 
 
 

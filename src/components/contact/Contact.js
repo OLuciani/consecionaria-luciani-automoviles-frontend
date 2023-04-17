@@ -45,9 +45,13 @@ const Contact = () => {
             <p>Instagram</p>
           </div>
 
-          <div className='box-p-icon'>
-            <i className="bi bi-linkedin"></i>
-            <p>Linkedin</p>
+          <div className='div-linkedin'>
+            <a href="https://github.com/OLuciani">
+            <div className='box-p-icon'>
+                <i className="bi bi-linkedin linkedin"></i>
+                <p className='linkedin'>Linkedin</p>
+            </div>
+            </a>
           </div>
         </div>
 
