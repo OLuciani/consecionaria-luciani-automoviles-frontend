@@ -47,7 +47,7 @@ const Products = () => {
                       {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                       <article className="article">
                         <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com${product.imageUrl}`} alt={`Foto ${product.name}`} />
-                        <p className="parrafo"><b>{product.name}</b></p>
+                        <p className="nombre-producto"><b>{product.name}</b></p>
                       </article>
                     </Link>
                   );

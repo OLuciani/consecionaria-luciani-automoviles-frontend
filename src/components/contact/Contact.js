@@ -48,8 +48,8 @@ const Contact = () => {
           <div className='div-linkedin'>
             <a href="https://github.com/OLuciani">
             <div className='box-p-icon'>
-                <i className="bi bi-linkedin linkedin"></i>
-                <p className='linkedin'>Linkedin</p>
+                <i className="bi bi-linkedin"></i>
+                <p>Linkedin</p>
             </div>
             </a>
           </div>
