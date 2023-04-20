@@ -42,7 +42,7 @@ const Modelos = () => {
                       <Link key={id} to={`/modelsDetails/${vehicul._id}`}> {/* Uso Link p/ir a productDetail llevando el id.Puse id en Route */}
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                         <article className="article-modelos">
-                          <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
+                          <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
                           <p className="parrafo"><b>{vehicul.name}</b></p>
                         </article>
                       </Link> 
@@ -71,7 +71,7 @@ const Modelos = () => {
                       <Link key={id} to={`/modelsDetails/${vehicul._id}`}> {/* Uso Link p/ir a productDetail llevando el id.Puse id en Route */}
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                         <article className="article-modelos">
-                          <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
+                          <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
                           <p className="parrafo"><b>{vehicul.name}</b></p>
                         </article>
                       </Link> 
@@ -99,7 +99,7 @@ const Modelos = () => {
                       <Link key={id} to={`/modelsDetails/${vehicul._id}`}> {/* Uso Link p/ir a productDetail llevando el id.Puse id en Route */}
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                         <article className="article-modelos">
-                          <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
+                          <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
                           <p className="parrafo"><b>{vehicul.name}</b></p>
                         </article>
                       </Link> 
@@ -127,7 +127,7 @@ const Modelos = () => {
                       <Link key={id} to={`/modelsDetails/${vehicul._id}`}> {/* Uso Link p/ir a productDetail llevando el id.Puse id en Route */}
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                         <article className="article-modelos">
-                          <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
+                          <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
                           <p className="parrafo"><b>{vehicul.name}</b></p>
                         </article>
                       </Link> 
@@ -155,7 +155,7 @@ const Modelos = () => {
                       <Link key={id} to={`/modelsDetails/${vehicul._id}`}> {/* Uso Link p/ir a productDetail llevando el id.Puse id en Route */}
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                         <article className="article-modelos">
-                          <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
+                          <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
                           <p className="parrafo"><b>{vehicul.name}</b></p>
                         </article>
                       </Link> 
@@ -183,7 +183,7 @@ const Modelos = () => {
                       <Link key={id} to={`/modelsDetails/${vehicul._id}`}> {/* Uso Link p/ir a productDetail llevando el id.Puse id en Route */}
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                         <article className="article-modelos">
-                          <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
+                          <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
                           <p className="parrafo"><b>{vehicul.name}</b></p>
                         </article>
                       </Link> 

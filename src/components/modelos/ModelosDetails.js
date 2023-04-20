@@ -33,7 +33,7 @@ const ModelosDetails = () => {
 
           <div className='container-article1'>
             <article className='article1-model-detail'>
-              <img className='image-model-details' src={`https://consecionaria-luciani-automoviles-backend.onrender.com${car.imageUrl}`} alt={`Foto ${car.name}`} />
+              <img className='image-model-details' src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${car.imageUrl}`} alt={`Foto ${car.name}`} />
             </article>
           </div>
 
