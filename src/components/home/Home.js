@@ -38,9 +38,6 @@ const Home = () => {
                   <div className="button-explorar">
                     <Link to={"/exploreElectric"}><p>Explorar eléctricos</p></Link>
                   </div>
-                  {/* <div className="button-accesorios">
-                    <p>Accesorios</p>
-                  </div> */}
                 </div>
 
               </div>
@@ -62,9 +59,6 @@ const Home = () => {
                   <div className="button-explorar">
                     <Link to={"/products"}><p>Explorar usados</p></Link>
                   </div>
-                {/*  <div className="button-accesorios">
-                    <p>Accesorios</p>
-                  </div> */}
                 </div>
 
               </div>
@@ -81,7 +75,7 @@ const Home = () => {
                 <div className="box-texto-filosofía-diseño">
                   <p className="filosofia-diseño-título">Filosofía de diseño de Mercedes-Benz</p>
                   <p className="filosofia-diseño-párrafo1">
-                    El diseño recrea lo extraordinario y contribuye esencialmente a definir la imagen de la marca de cara a la opinión pública. Conjugando tradición y modernidad, los estilistas del departamento de diseño de Mercedes-Benz esbozan ya hoy los automóviles del futuro.<br/><br/>
+                    El diseño recrea lo extraordinario y contribuye esencialmente a definir la imagen de la marca de cara a la opinión pública. Conjugando tradición y modernidad, los estilistas del departamento de diseño de Mercedes-Benz esbozan ya hoy los automóviles del futuro.{/* <br/><br/> */}
                   </p>
                 </div>
               </div>
