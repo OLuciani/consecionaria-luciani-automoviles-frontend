@@ -43,7 +43,7 @@ const Modelos = () => {
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                         <article className="article-modelos">
                           <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
-                          <p className="parrafo"><b>{vehicul.name}</b></p>
+                          <p className="title-modelos"><b>{vehicul.name}</b></p>
                         </article>
                       </Link> 
                       
@@ -72,7 +72,7 @@ const Modelos = () => {
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                         <article className="article-modelos">
                           <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
-                          <p className="parrafo"><b>{vehicul.name}</b></p>
+                          <p className="title-modelos"><b>{vehicul.name}</b></p>
                         </article>
                       </Link> 
                       
@@ -100,7 +100,7 @@ const Modelos = () => {
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                         <article className="article-modelos">
                           <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
-                          <p className="parrafo"><b>{vehicul.name}</b></p>
+                          <p className="title-modelos"><b>{vehicul.name}</b></p>
                         </article>
                       </Link> 
                       
@@ -128,7 +128,7 @@ const Modelos = () => {
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                         <article className="article-modelos">
                           <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
-                          <p className="parrafo"><b>{vehicul.name}</b></p>
+                          <p className="title-modelos"><b>{vehicul.name}</b></p>
                         </article>
                       </Link> 
                       
@@ -156,7 +156,7 @@ const Modelos = () => {
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                         <article className="article-modelos">
                           <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
-                          <p className="parrafo"><b>{vehicul.name}</b></p>
+                          <p className="title-modelos"><b>{vehicul.name}</b></p>
                         </article>
                       </Link> 
                       
@@ -184,7 +184,7 @@ const Modelos = () => {
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                         <article className="article-modelos">
                           <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
-                          <p className="parrafo"><b>{vehicul.name}</b></p>
+                          <p className="title-modelos"><b>{vehicul.name}</b></p>
                         </article>
                       </Link> 
                       

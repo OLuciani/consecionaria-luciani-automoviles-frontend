@@ -3,17 +3,19 @@
     color: white;
 } 
 
-.title-products {
-    padding-top: 1%;
-}
 
 .article-modelos{
     color: white;
     margin-bottom: 20px;
     background-color: black;
     box-sizing: border-box;
-    width: 90%;
-    text-align: center;
+    width: 100%;
+    display: grid;
+}
+
+.title-modelos {
+    margin-top: -3vh;
+   justify-self: center;
 }
 
 .article-modelos:hover {
@@ -21,9 +23,10 @@
 }
 
 .article-modelos img {
-    width: 100%;
+    width: 320px;
     margin-top: 10px;
     background-color: black;
+    justify-self: center;
 }
 
 .list-cars-modelos {
@@ -60,5 +63,11 @@
 @media (min-width: 425px){
     .article-modelos{
         width: 400px 
+    }
+}
+
+@media (min-width: 800px){
+    .article-modelos img{
+        width: 400px; 
     }
 }
