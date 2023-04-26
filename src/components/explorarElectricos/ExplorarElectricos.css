@@ -2,3 +2,24 @@
     background-color: black;
     min-height: 87vh;;
 }
+
+.article-explorar-electricos{
+    color: white;
+    margin-bottom: 20px;
+    background-color: black;
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+}
+
+.title-explorar-electricos {
+    margin-top: -3vh;
+   justify-self: center;
+}
+
+.article-explorar-electricos img {
+    width: 320px;
+    margin-top: 10px;
+    background-color: black;
+    justify-self: center;
+}

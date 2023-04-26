@@ -41,9 +41,9 @@ const ExplorarElectricos = () => {
                     return (
                       <Link key={id} to={`/modelsDetails/${vehicul._id}`}> {/* Uso Link p/ir a productDetail llevando el id.Puse id en Route */}
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
-                        <article className="article-modelos">
+                        <article className="article-explorar-electricos">
                           <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
-                          <p className="parrafo"><b>{vehicul.name}</b></p>
+                          <p className="title-explorar-electricos"><b>{vehicul.name}</b></p>
                         </article>
                       </Link> 
                       
