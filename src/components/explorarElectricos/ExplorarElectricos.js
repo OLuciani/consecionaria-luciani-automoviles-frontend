@@ -4,6 +4,7 @@ import NavBar1 from "../navBar1/NavBar1";
 import Footer from "../footer/Footer";
 import SideBar from "../sideBar/SideBar";
 import "./ExplorarElectricos.css";
+import LazyLoad from 'react-lazy-load';
 
 const ExplorarElectricos = () => {
   const [vehiculs, setVehiculs] = useState([]);
@@ -40,7 +41,9 @@ const ExplorarElectricos = () => {
                         <Link key={id} to={`/modelsDetails/${vehicul._id}`}> {/* Uso Link p/ir a productDetail llevando el id.Puse id en Route */}
                           {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                           <article className="article-explorar-electricos">
-                            <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
+                            <LazyLoad once>
+                              <img className="image-explorar-electricos" src={`https://consecionaria-luciani-automoviles-backend.onrender.com${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
+                            </LazyLoad>
                             <p className="title-explorar-electricos"><b>{vehicul.name}</b></p>
                           </article>
                         </Link> 

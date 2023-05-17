@@ -12,26 +12,23 @@
     padding-top: 1%;
 }
 
-article {
-   /*  width: 325px; */
+.articulo-products {
    width: 100%;
-    
 }
 
-.article {
+.articulo-products {
     color: black;
     margin-bottom: 20px;
-    /* background-color: white; */
     box-sizing: border-box;
     color: white;
     display: grid;
 }
 
-.article:hover {
+.articulo-products:hover {
     box-shadow: 2px 2px 5px;
 }
 
-.article img {
+.image-products {
     margin-top: 10px;
     width: 320px;
     height: 180px;
@@ -59,13 +56,12 @@ article {
 .cargando {
     color: white;
     font-size: 22px;
-    /* min-height: 70vh; */
     padding-top: 25vh;
     font-weight: 700;
 }
 
 @media (min-width: 425px){
-    .article {
+    .articulo-products {
         width: 400px; 
     }
 }

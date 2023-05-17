@@ -3,23 +3,11 @@ import { Context } from "../../context/Context";
 import { Link } from "react-router-dom";
 import NavBar1 from "../navBar1/NavBar1";
 import Footer from "../footer/Footer";
-//import NavBar from "../navBar/NavBar";
 import "./Products.css";
 import SideBar from "../sideBar/SideBar";
+import LazyLoad from 'react-lazy-load';
 
 const Products = () => {
-  /* const [products, setProducts] = useState([]); */
-
-  //Hago el fetch con la api del backend que está en el servidor 
- /*  useEffect(() => { 
-    fetch('https://consecionaria-luciani-automoviles-backend.onrender.com/api/list')
-      .then((res) => res.json())
-      .then((allCars) => {
-        setProducts(allCars);
-      })
-      .catch((error) => console.log(error));
-  }, []); */
-
   const automovilesUsados = useContext(Context);
 
   return (
@@ -47,8 +35,10 @@ const Products = () => {
                     return (
                       <Link key={id} to={`/productDetail/${product._id}`}> {/* Uso Link p/ir a productDetail llevando el id.Puse id en Route */}
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
-                        <article className="article">
-                          <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${product.imageUrl}`} loading="lazy" alt={`Foto ${product.name}`} />
+                        <article className="articulo-products">
+                          <LazyLoad once>
+                            <img className="image-products" src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${product.imageUrl}`} loading="lazy" alt={`Foto ${product.name}`} />
+                          </LazyLoad>
                           <p className="nombre-producto"><b>{product.name}</b></p>
                         </article>
                       </Link>
