@@ -36,7 +36,7 @@ const Products = () => {
                       <Link key={id} to={`/productDetail/${product._id}`}> {/* Uso Link p/ir a productDetail llevando el id.Puse id en Route */}
                         {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                         <article className="articulo-products">
-                          <LazyLoad once>
+                          <LazyLoad width={320} height={180} once>
                             <img className="image-products" src={`https://consecionaria-luciani-automoviles-backend.onrender.com/${product.imageUrl}`} loading="lazy" alt={`Foto ${product.name}`} />
                           </LazyLoad>
                           <p className="nombre-producto"><b>{product.name}</b></p>

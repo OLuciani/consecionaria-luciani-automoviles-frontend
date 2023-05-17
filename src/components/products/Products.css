@@ -13,7 +13,7 @@
 }
 
 .articulo-products {
-   width: 100%;
+   width: 325px;
 }
 
 .articulo-products {
@@ -30,7 +30,7 @@
 
 .image-products {
     margin-top: 10px;
-    width: 320px;
+    width: 325px;
     height: 180px;
     justify-self: center;
 }
@@ -60,10 +60,10 @@
     font-weight: 700;
 }
 
-@media (min-width: 425px){
+/* @media (min-width: 425px){
     .articulo-products {
         width: 400px; 
     }
-}
+} */
 
 

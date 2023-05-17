@@ -41,7 +41,7 @@ const ExplorarElectricos = () => {
                         <Link key={id} to={`/modelsDetails/${vehicul._id}`}> {/* Uso Link p/ir a productDetail llevando el id.Puse id en Route */}
                           {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
                           <article className="article-explorar-electricos">
-                            <LazyLoad once>
+                            <LazyLoad width={320} height={192} once>
                               <img className="image-explorar-electricos" src={`https://consecionaria-luciani-automoviles-backend.onrender.com${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
                             </LazyLoad>
                             <p className="title-explorar-electricos"><b>{vehicul.name}</b></p>
