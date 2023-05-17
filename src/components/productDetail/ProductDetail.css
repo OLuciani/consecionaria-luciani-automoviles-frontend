@@ -14,7 +14,8 @@ article {
 }
 
 .image-product-details {
-    width: 85vw;
+    width: 320px;
+    height: 180px;
     margin-bottom: 2vh;
 }
 
@@ -25,7 +26,7 @@ article {
 
 /* Con esto logro el posicionamiento del footer en la parte baja */
 .div-car-details {
-    min-height: 79.5vh;
+    min-height: 87.5vh;
     background-color: black;
 }
 
@@ -43,7 +44,8 @@ article {
 
 @media (min-width: 700px) {
     .image-product-details {
-        width: 70vw;
+        width: 480px;
+        height: 270px;
     }
 
     .article-product-detail {
@@ -53,7 +55,8 @@ article {
 
 @media (min-width: 900px) {
     .image-product-details {
-        width: 60vw;
+        width: 640px;
+        height: 360px;
     }
 
     .article-product-detail {
@@ -62,9 +65,9 @@ article {
 }
 
 @media (min-width: 1000px) {
-    .image-product-details {
+   /*  .image-product-details {
         width: 50vw;
-    }
+    } */
 
     .article-product-detail {
         width: 60%;

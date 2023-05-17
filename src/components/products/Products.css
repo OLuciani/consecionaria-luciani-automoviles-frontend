@@ -5,7 +5,7 @@
 }
 
 .sub-box-products {
-    min-height: 86.5vh;
+    min-height: 87.5vh;
 }
 
 .title-products {
@@ -34,6 +34,7 @@ article {
 .article img {
     margin-top: 10px;
     width: 320px;
+    height: 180px;
     justify-self: center;
 }
 

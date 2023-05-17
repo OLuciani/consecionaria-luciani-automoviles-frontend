@@ -11,12 +11,9 @@ const Contact = () => {
       <header>
         <NavBar1 />
         <SideBar />
-
-        {/* <NavBar /> */}
       </header>
 
-      <main className='div-box-contact container-fluid'>
-         
+      <main className='div-box-contact container-fluid'> 
         <h2 className='text-center titulo-contact'>Información de contacto</h2>
 
         <div className='items-contact'>
@@ -54,7 +51,6 @@ const Contact = () => {
             </a>
           </div>
         </div>
-
       </main>
 
       <footer className="footer-contact">

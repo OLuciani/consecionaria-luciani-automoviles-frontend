@@ -24,6 +24,7 @@
 
 .article-modelos img {
     width: 320px;
+    height: 192px;
     margin-top: 10px;
     background-color: black;
     justify-self: center;
@@ -69,5 +70,6 @@
 @media (min-width: 800px){
     .article-modelos img{
         width: 400px; 
+        height: 240px;
     }
 }

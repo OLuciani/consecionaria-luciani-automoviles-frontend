@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext } from 'react';
+import { Context } from "../../context/Context";
 import "./ProductDetail.css";
 //import NavBar from "../navBar/NavBar";
 import { useParams } from 'react-router-dom';
@@ -7,30 +8,38 @@ import NavBar1 from '../navBar1/NavBar1';
 import SideBar from '../sideBar/SideBar';
 
 const ProductDetail = () => {
-  const [car, setCar] = useState([]);
+ /*  const [car, setCar] = useState([]); */
 
-  /* Aquí recupero el id que viene en la url (viene de products) */
-  const {car_id} = useParams();
+  //Aquí recupero el id que viene en la url (viene de products) 
+  /* const {car_id} = useParams(); */
 
   //console.log(`Id que viene de product: ${car_id}`) //Pruebo si viene el id de products.
 
-  /* Hago el fetch con la api del backend que está en el servidor */
-  useEffect(() => {
+  //Hago el fetch con la api del backend que está en el servidor 
+ /*  useEffect(() => {
     fetch(`https://consecionaria-luciani-automoviles-backend.onrender.com/api/details/${car_id}`)
       .then(res => res.json())
       .then(oneCar => { 
         return setCar(oneCar)
       })
-  },[car_id]);
+  },[car_id]); */
+
+  const {car_id} = useParams();
+  console.log(`Id que viene de product: ${car_id}`); 
+
+  const automovilesUsados = useContext(Context);
+
+  let car = automovilesUsados.products.find((product) =>  product._id === car_id); 
 
   return (
     <>
-      <NavBar1 />
-      <SideBar />
-         {/* <NavBar /> */}
+      <header>
+        <NavBar1 />
+        <SideBar />
+      </header>
+      
+      <main>
         <div className='div-car-details'>
-         {/*  <h1>Car Details</h1> */}
-
           {/* Creo el artículo para ver un solo producto con sus detalles */}
           <article className="article-product-detail">
             <div className='div-image-details'>
@@ -43,11 +52,14 @@ const ProductDetail = () => {
 
           <p className='texto-product-detail'>Te está esperando !!<br/>LLegate a nuestro local, lo probás y si es de tu agrado te lo llevás.<br/>Financiación a medida.</p>
         </div>
+      </main>
 
+      <footer>
         <div className='div-footer'>
           <Footer />
         </div>
- 
+      </footer>
+
     </>
   )
 }

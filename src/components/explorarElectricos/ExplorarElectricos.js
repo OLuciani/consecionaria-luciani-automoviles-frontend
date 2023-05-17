@@ -25,38 +25,37 @@ const ExplorarElectricos = () => {
         <SideBar />
       </header>
 
-      <div className="box">
+      <main>
+        <div className="box">
+          <h3 className=" text-center titulo-categoria">Modelos eléctricos</h3>
+          {/* <hr / > */} 
+          <div className="list-cars-modelos">
+            {
+              (vehiculs.length < 1) ? <p className="cargando">Cargando Imágenes...</p>:
+                vehiculs.map((vehicul) => { //Uso .map para listar los productos
+                    //console.log(typeof(vehicul.imageUrl));
+                    let id = vehicul._id;
+                      if(vehicul.category === "Eléctrico") {
+                      return (
+                        <Link key={id} to={`/modelsDetails/${vehicul._id}`}> {/* Uso Link p/ir a productDetail llevando el id.Puse id en Route */}
+                          {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
+                          <article className="article-explorar-electricos">
+                            <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
+                            <p className="title-explorar-electricos"><b>{vehicul.name}</b></p>
+                          </article>
+                        </Link> 
+                        
+                      );
+                    } else {
+                      return null
+                    }
+                  })
+                
+            }
 
-        {/* <h1 className="text-center title-nuestros-modelos">Todos los Modelos</h1>  */}
-
-        <h3 className=" text-center titulo-categoria">Modelos eléctricos</h3>
-        {/* <hr / > */} 
-        <div className="list-cars-modelos">
-          {
-            (vehiculs.length < 1) ? <p className="cargando">Cargando Imágenes...</p>:
-               vehiculs.map((vehicul) => { //Uso .map para listar los productos
-                  //console.log(typeof(vehicul.imageUrl));
-                  let id = vehicul._id;
-                    if(vehicul.category === "Eléctrico") {
-                    return (
-                      <Link key={id} to={`/modelsDetails/${vehicul._id}`}> {/* Uso Link p/ir a productDetail llevando el id.Puse id en Route */}
-                        {/* Aquí creo como se va a ver c/producto (automóvil) en el listado*/}
-                        <article className="article-explorar-electricos">
-                          <img src={`https://consecionaria-luciani-automoviles-backend.onrender.com${vehicul.imageUrl}`} alt={`Foto ${vehicul.name}`} /> 
-                          <p className="title-explorar-electricos"><b>{vehicul.name}</b></p>
-                        </article>
-                      </Link> 
-                      
-                    );
-                  } else {
-                    return null
-                  }
-                })
-              
-          }
-
+          </div>
         </div>
-      </div>
+      </main>
 
       <footer>
         <Footer />

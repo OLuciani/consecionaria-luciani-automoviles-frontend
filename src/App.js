@@ -8,11 +8,13 @@ import Modelos from './components/modelos/Modelos';
 import Technology from './components/technology/Technology';
 import ModelosDetails from './components/modelos/ModelosDetails';
 import ExplorarElectricos from './components/explorarElectricos/ExplorarElectricos';
+import ContextProvider from './context/Context';
 
 function App() {
   return (
     <div className="App">
       <>
+        <ContextProvider>
           <BrowserRouter>
             <Routes>
               {/* Rutas para navegar entre las vistas */}
@@ -26,6 +28,7 @@ function App() {
               <Route path="/exploreElectric" element={<ExplorarElectricos />} />
             </Routes>
           </BrowserRouter>
+        </ContextProvider>  
       </>
     </div>
   );

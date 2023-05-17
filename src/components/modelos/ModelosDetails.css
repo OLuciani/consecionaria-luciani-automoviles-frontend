@@ -28,6 +28,7 @@ html, body {
 
 .article1-model-detail {
     width: 90vw;
+    display: grid;
 }
 
 .article2-model-detail {
@@ -37,7 +38,9 @@ html, body {
 }
 
 .image-model-details {
-    width: 100%;
+    width: 320px;
+    height: 192px;
+    justify-self: center;
 }
 
 .texto-model-detail {
@@ -57,7 +60,8 @@ html, body {
     }
      
     .image-model-details {
-        width: 130%;
+        width: 500px;
+        height: 300px;
     }
 
     .article1-model-detail {
@@ -69,4 +73,11 @@ html, body {
         margin-top: -5vh;
         text-align: left;
     }    
+}
+
+@media (min-width: 1300px) {
+    .image-model-details {
+        width: 700px;
+        height: 420px;
+    }
 }
