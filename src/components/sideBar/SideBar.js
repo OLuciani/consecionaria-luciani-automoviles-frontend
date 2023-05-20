@@ -18,7 +18,7 @@ const SideBar = () => {
 
             <div onClick={()=>{let mostrar = document.querySelector(".sidebar");
                 mostrar.style.display = "none"}} className="component-sidebar">
-            <Link to="/models"><ComponentNavbar name={"Modelos"} /></Link>
+            <Link to="/models"><ComponentNavbar name={"Modelos 0km "} /></Link>
             </div>
 
             <div onClick={()=>{let mostrar = document.querySelector(".sidebar");
