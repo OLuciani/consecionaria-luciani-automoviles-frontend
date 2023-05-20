@@ -1,6 +1,5 @@
 .sidebar {
     position: absolute;
-    /* background-color: rgb(111, 89, 89); */
     background-color: black;
     text-align:left;
     padding-top: 20%;
@@ -16,7 +15,6 @@
   }
   
   .close-sidebar {
-    /* color: white; */
     color: rgb(196, 154, 154);
     font-size: 18px;
     font-weight: 900;

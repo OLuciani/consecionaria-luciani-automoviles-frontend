@@ -1,7 +1,7 @@
 .box-products {
     background-color: black;
     color: white;
-    
+  
 }
 
 .sub-box-products {
@@ -9,7 +9,7 @@
 }
 
 .title-products {
-    padding-top: 1%;
+    margin-top: 1vh;
 }
 
 .articulo-products {
@@ -36,8 +36,8 @@
 }
 
 .nombre-producto {
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2vh;
 }
 
 .list-cars {
@@ -60,10 +60,5 @@
     font-weight: 700;
 }
 
-/* @media (min-width: 425px){
-    .articulo-products {
-        width: 400px; 
-    }
-} */
 
 

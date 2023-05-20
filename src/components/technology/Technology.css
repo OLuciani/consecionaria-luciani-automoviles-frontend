@@ -15,7 +15,6 @@ html, body {
 
 .contenedor-image1-technology {
     width: 100%;
-    /* background-color: black; */
     display: grid;
     
 }  
@@ -29,15 +28,12 @@ html, body {
 
 .contenedor-image2-technology {
     width: 100%;
-   /*  background-color: black; */
     display: grid;
     border-bottom: solid 3px black; ;
 }  
 
 .contenedor-futuro-sostenible {
     width: 100%;
-    /* background-color: black; */
-    color: ;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -90,8 +86,6 @@ html, body {
 }
 
 .contenedor-movilidad-eficiente {
-    /* background-color: black; */ 
-    /* color: white; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

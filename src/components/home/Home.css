@@ -31,7 +31,6 @@ html, body {
 }
 
 .titulo-promo {
-    /* font-family: Roboto, sans-serif; */
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 0px;
@@ -75,11 +74,9 @@ html, body {
 
 .box-promo-leyend {
     background-color: rgb(179, 130, 130);
-   /*  background-color: rgb(137, 207, 231); */
 }
 
 .filosofia-diseño {
-    /* background-color: black; */
     color: white;
     padding-top: 3vh;
 }
@@ -129,7 +126,6 @@ html, body {
 
     .box-promo-leyend {
         width: 40%;
-        /* background-color: rgba(137, 207, 231, 0.6); */
         background-color: rgba(179, 130, 130, 0.6);
         position: absolute;
         top: 5vh;

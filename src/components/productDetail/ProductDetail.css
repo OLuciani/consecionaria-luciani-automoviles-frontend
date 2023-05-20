@@ -30,10 +30,6 @@ article {
     background-color: black;
 }
 
-/* .div-footer {
-    padding-top: 2vh;
-} */
-
 .texto-product-detail {
     margin-left: 20px;
     color: white;
@@ -65,10 +61,6 @@ article {
 }
 
 @media (min-width: 1000px) {
-   /*  .image-product-details {
-        width: 50vw;
-    } */
-
     .article-product-detail {
         width: 60%;
     }

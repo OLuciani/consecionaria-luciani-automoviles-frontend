@@ -46,7 +46,6 @@ html, body {
 .texto-model-detail {
     margin-left: 2vw;
     margin-right: 2vw;
-    /* padding-bottom: 20vh; */
 }
 
 @media (min-width: 900px) {
